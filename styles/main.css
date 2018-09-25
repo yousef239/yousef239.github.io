@@ -1,0 +1,178 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {box-sizing: border-box;
+}
+body {
+	font-family: Arial;
+	margin: 0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+.header {
+	background-color: lightblue;
+	padding: 16px;
+	text-align: center;
+	font-size: 24px;
+}
+.topnav {
+	background-color: #191970;
+	display: flex;
+}
+.topnav a {
+	color: #DEB887;
+	text-align: center;
+	padding: 12px 14px;
+	text-decoration: none;
+}
+.topnav a:hover {
+	background-color: #778899;
+	color: black;
+} 
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.side {
+	flex: 30%;
+	background-color: #cceeff;
+	padding: 20px;
+	height: 623px;
+}
+.main {
+	flex: 70%;
+	background-color: #f1f1f1;
+	padding: 20px;
+	height: 623px;
+}
+@media screen and (max-width:700px) {
+	.row, .topnav {
+		flex-direction: column;
+	}
+}
+.p1::first-letter {
+	color: #1aa3ff;
+	font-size: 25px;
+}
+.mainp2 {
+	flex: 100%;
+	background-color: #f1f1f1;
+	padding: 20px;
+	height: 623px;
+}
+.button {
+		text-align:center;
+		padding: 15px;
+}
+#skydiveimg {
+	height: 200px;
+	padding: 8px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition:0.3s;
+}
+#skydiveimg:hover {
+	opacity: 0.5;
+}
+.modal {
+	display:none;
+	position:fixed;
+	z-index: 1;
+	padding-top:100px;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color: rgba(0,0,0,0.9);
+}
+.modal-content {
+	margin: auto;
+	display:block;
+	width:80%;
+	max-width: 600px;
+}
+#caption1 {
+	margin:auto;
+	display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+.modal-content, #caption {    
+	animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+}
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }

@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>First Website
+	</title>
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<script>
+		function displayDate() {
+		document.getElementById("time").innerHTML = Date();
+}
+	</script>
+</head>
+<body>
+
+<h1 class="header"><a href="index.htm" style="text-decoration:none">Contacts</a>
+</h1>
+<div class="topnav">
+	<a href="index.htm">Home</a>
+	<a href="projects.htm">Projects</a>
+	<a href="contacts.htm">Contacts</a>
+</div>
+<div class="mainp2">
+	<h2 style="text-align:center">Email: <span style="color:#1aa3ff">yabed96@gmail.com</span></br>
+		Phone Number: <span style="color:#1aa3ff">239-963-6173</span></br>
+		Address: <span style="color:#1aa3ff">"Office Address"</span></br>
+	</h2>
+	<div class="button">
+	<button onclick="displayDate()">WHAT TIME IS IT?</button>
+	<p id="time" style="color:#1aa3ff"></p>
+	</div>
+	
+	
+</div>
