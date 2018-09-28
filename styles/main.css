@@ -113,7 +113,7 @@ table {
 #skydiveimg {
 	height: 200px;
 	padding: 8px;
-	border-radius: 5px;
+	border-radius: 25px;
 	cursor: pointer;
 	transition:0.3s;
 }
