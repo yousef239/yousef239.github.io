@@ -83,18 +83,21 @@ table {
 	flex: 30%;
 	background-color: #cceeff;
 	padding: 20px;
-	height: 623px;
+	height: 626px;
 }
 .main {
 	flex: 70%;
 	background-color: #f1f1f1;
 	padding: 20px;
-	height: 623px;
+	height: 626px;
 }
 @media screen and (max-width:700px) {
 	.row, .topnav {
 		flex-direction: column;
 	}
+	.modal-content {
+        width: 100%;
+    }
 }
 .p1::first-letter {
 	color: #1aa3ff;
@@ -104,7 +107,7 @@ table {
 	flex: 100%;
 	background-color: #f1f1f1;
 	padding: 20px;
-	height: 623px;
+	height: 626px;
 }
 .button {
 		text-align:center;
@@ -172,8 +175,10 @@ table {
     text-decoration: none;
     cursor: pointer;
 }
-@media only screen and (max-width: 700px){
-    .modal-content {
-        width: 100%;
-    }
 
+#seaplusplusimg {
+	height: 351px;
+	width: 800px;
+	padding: 8px;
+	border-radius: 25px;
+}
