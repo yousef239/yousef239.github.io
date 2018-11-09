@@ -3,6 +3,8 @@ var img = document.getElementById('skydiveimg');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption1");
 
+var contactForm = document.getElementById("contactForm").elements.namedItem("fname").value;
+
 img.onclick = function(){
     modal.style.display = "block";
     modalImg.src = this.src;
@@ -17,3 +19,5 @@ span.onclick = function() {
 function displayDate() {
 	document.getElementById("time").innerHTML = Date();
 	}
+
+

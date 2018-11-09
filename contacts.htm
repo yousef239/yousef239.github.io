@@ -15,12 +15,13 @@
 	<a href="contacts.htm">Contacts</a>
 </div>
 <div class="mainp2" style="font-size:30px">
-	<h2 style="text-align:center">Email: <span style="color:#1aa3ff">yabed96@gmail.com</span></br>
-		Phone Number: <span style="color:#1aa3ff">239-963-6173</span></br>
-		Twitter: <span style="color:#1aa3ff">@Yousef_239</span></br>
+	<h2 style="text-align:center">My Email: <span style="color:#1aa3ff">yabed96@gmail.com</span></br>
+		<form action="takeform.php" method="POST">
+			Your Name: <input type="text" name="fname" required></br>
+			Email Address: <input type="email" name="email" required></br>
+			Telephone: <input type="tel" name="telephone" placeholder="Not requied" pattern="/\d/"></br>
+			<input type="submit" value="Submit"></br>
+		</form>
 	</h2>
-	<div class="button">
-	<button onclick="displayDate()">WHAT TIME IS IT?</button>
-	<p id="time" style="color:#1aa3ff"></p>
-	</div>
+	
 </div>
