@@ -15,9 +15,3 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() { 
     modal.style.display = "none";
 	}
-	
-function displayDate() {
-	document.getElementById("time").innerHTML = Date();
-	}
-
-
