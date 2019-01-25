@@ -50,7 +50,7 @@
 		"From: $fname <$email>\r\n" .
 		"Reply-To: $fname <$email>\r\n"); 
 		echo("<p>Your message has been sent. Thank you!</p>\n");
-}
+	}
 ?>
 </body>
 </html>

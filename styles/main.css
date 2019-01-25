@@ -56,19 +56,18 @@ table {
 	border-collapse:collapse;
 	border-spacing:0;
 }
-.header {
-	background-color: lightblue;
-	padding: 16px;
-	text-align: center;
-	font-size: 24px;
-}
 .topnav {
 	background-color: #191970;
+	text-align: center;
 	display: flex;
+}
+.header {
+	text-align:center;
+	text-decoration:none;
+	font-size: 32px;
 }
 .topnav a {
 	color: #DEB887;
-	text-align: center;
 	padding: 12px 14px;
 	text-decoration: none;
 }
