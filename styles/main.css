@@ -52,10 +52,7 @@ body {
 	font-family: Arial;
 	margin: 0;
 }
-table {
-	border-collapse:collapse;
-	border-spacing:0;
-}
+
 .topnav {
 	background-color: #191970;
 	text-align: center;
@@ -83,13 +80,13 @@ table {
 	flex: 30%;
 	background-color: #cceeff;
 	padding: 20px;
-	height: 626px;
+	height: 681px;
 }
 .main {
 	flex: 70%;
 	background-color: #f1f1f1;
 	padding: 20px;
-	height: 626px;
+	height: 681px;
 }
 @media screen and (max-width:700px) {
 	.row, .topnav {
@@ -107,7 +104,7 @@ table {
 	flex: 100%;
 	background-color: #f1f1f1;
 	padding: 20px;
-	height: 626px;
+	height: 681px;
 }
 .button {
 		text-align:center;
