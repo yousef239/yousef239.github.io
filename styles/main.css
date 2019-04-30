@@ -59,9 +59,50 @@ body {
 	display: flex;
 }
 .header {
+	font-family: 'Russo One', sans-serif;
 	text-align:center;
 	text-decoration:none;
-	font-size: 32px;
+	font-size: 38px;
+	color: midnightblue;
+	padding-bottom: 50px;
+}
+.headercontact {
+	font-family: 'Russo One', sans-serif;
+	text-align:center;
+	text-decoration:none;
+	font-size: 38px;
+	color: midnightblue;
+	padding-bottom: 20px;
+}
+.sideheader {
+	font-family: 'Russo One', sans-serif;
+	text-align:center;
+	text-decoration:none;
+	font-size: 30px;
+	color: midnightblue;
+}
+.headmini {
+	font-family: 'Russo One', sans-serif;
+	text-decoration:none;
+	font-size: 23px;
+	color: midnightblue;
+	padding-top: 20px;
+	text-align: center;
+}
+.headminiside {
+	font-family: 'Russo One', sans-serif;
+	text-decoration:none;
+	font-size: 23px;
+	color: midnightblue;
+	padding-top: 20px;
+}
+.headminicontact {
+	font-family: 'Russo One', sans-serif;
+	text-decoration:none;
+	font-size: 35px;
+	color: midnightblue;
+	padding-top: 10px;
+	text-align: center;
 }
 .topnav a {
 	color: #DEB887;
@@ -80,13 +121,13 @@ body {
 	flex: 30%;
 	background-color: #cceeff;
 	padding: 20px;
-	height: 681px;
+	height: 715px;
 }
 .main {
 	flex: 70%;
 	background-color: #f1f1f1;
 	padding: 20px;
-	height: 681px;
+	height: 715px;
 }
 @media screen and (max-width:700px) {
 	.row, .topnav {
@@ -96,15 +137,26 @@ body {
         width: 100%;
     }
 }
+.p1 {
+	font-size: 19px;
+	font-family: 'Monda', sans-serif;
+	text-align: center;
+}
 .p1::first-letter {
 	color: #1aa3ff;
 	font-size: 25px;
+	font-family: 'Monda', sans-serif;
+}
+.p1contact {
+	font-size: 30px;
+	font-family: 'Monda', sans-serif;
+	text-align: center;
 }
 .mainp2 {
 	flex: 100%;
 	background-color: #f1f1f1;
 	padding: 20px;
-	height: 681px;
+	height: 715px;
 }
 .button {
 		text-align:center;
@@ -112,7 +164,7 @@ body {
 }
 #skydiveimg {
 	height: 200px;
-	padding: 8px;
+	padding: 16px;
 	border-radius: 25px;
 	cursor: pointer;
 	transition:0.3s;
@@ -176,7 +228,7 @@ body {
 #seaplusplusimg {
 	height: 351px;
 	width: 800px;
-	padding: 12px;
+	padding: 8px;
 	border-radius: 25px;
 }
 
@@ -193,8 +245,9 @@ input:required:valid {
 }
 
 #mcandroidicon {
-	padding: 12px;
 	border-radius: 25px;
+	height: 160px;
+	width: 160px;
 }
 
 
