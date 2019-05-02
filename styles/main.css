@@ -164,10 +164,13 @@ body {
 }
 #skydiveimg {
 	height: 200px;
-	padding: 16px;
-	border-radius: 25px;
+	padding-bottom: 16px;
+	border-radius: 10px
+;
 	cursor: pointer;
 	transition:0.3s;
+	alignment: center;
+	padding-left: 17%;
 }
 #skydiveimg:hover {
 	opacity: 0.5;
